@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GenericNetwork'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'Generic Network.'
 
 # This description is used to generate tags and improve search results.
@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
- Swift Generic Network
+ Generic Network Layer
                        DESC
-
-  s.homepage         = 'https://github.com/MvKro//generic-network'
+  
+  s.homepage         = 'https://github.com/MvKro/networkGeneric'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Karolina Muñoz' => 'karolina' }
@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'GenericNetwork/Classes/**/*'
-  s.swift_versions = '4.0'
+  s.swift_version = '4.0'
   
   # s.resource_bundles = {
   #   'GenericNetwork' => ['GenericNetwork/Assets/*.png']
