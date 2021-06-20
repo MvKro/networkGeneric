@@ -1,0 +1,16 @@
+PODS:
+  - GenericNetwork (0.1.0)
+
+DEPENDENCIES:
+  - GenericNetwork (from `../`)
+
+EXTERNAL SOURCES:
+  GenericNetwork:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GenericNetwork: 52f4bc9e84f340c89c3d13742840712cced9a9a7
+
+PODFILE CHECKSUM: c4e889deb56a503e0d1a39e17475500e906d142f
+
+COCOAPODS: 1.10.1

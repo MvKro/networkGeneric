@@ -1,0 +1,6 @@
+framework module GenericNetwork {
+  umbrella header "GenericNetwork-umbrella.h"
+
+  export *
+  module * { export * }
+}
